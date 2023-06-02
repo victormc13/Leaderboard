@@ -1,16 +1,17 @@
 import './style.css';
 import { refreshScores, submitScore } from './modules/fetchingData.js';
-// import newGame from './modules/newGame';
-
-// newGame();
 
 const refreshButton = document.querySelector('.refresh-btn');
-refreshButton.addEventListener('click', refreshScores);
+refreshButton.addEventListener('click', async () => {
+  await refreshScores();
+});
 
 const submitButton = document.querySelector('.form');
 submitButton.addEventListener('submit', async (e) => {
   e.preventDefault();
   await submitScore();
+  document.getElementById('form-name').value = '';
+  document.getElementById('form-score').value = '';
   refreshScores();
 });
 
