@@ -22,28 +22,17 @@
             <button class="refresh-btn btn" type="button">Refresh</button>
           </div>
           <ul class="score-list">
-            <li>Name: 21230</li>
-            <li>Name: 212</li>
-            <li>Name: 2142230</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
-            <li>Name: 2042</li>
           </ul>
         </div>
         <div class="addscore-container flex-column">
           <h2 class="subtitle">Add your score</h2>
-          <input type="text" placeholder="Your name" />
-          <input type="text" placeholder="Your score" />
-          <button class="submit-btn btn" type="button">Submit</button>
+          <form action="/" class="form flex-column">
+            <input type="text" id="form-name" placeholder="Your name" />
+            <input type="text" id="form-score" placeholder="Your score" />
+            <button type="submit" class="submit-btn btn">Submit</button>
+          </form>
         </div>
       </div>
     </div>
-
-    <!-- Scripts -->
-    <script src="index.js"></script>
   </body>
 </html>
