@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>LeaderBoard</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="container flex-column">
+      <h1 class="title">Leaderboard</h1>
+      <div class="css-grid">
+        <div class="scores-container flex-column">
+          <div class="flex-row">
+            <h2 class="subtitle">Recent scores</h2>
+            <button class="refresh-btn btn" type="button">Refresh</button>
+          </div>
+          <ul class="score-list">
+          </ul>
+        </div>
+        <div class="addscore-container flex-column">
+          <h2 class="subtitle">Add your score</h2>
+          <form action="/" class="form flex-column">
+            <input type="text" id="form-name" placeholder="Your name" />
+            <input type="number" id="form-score" placeholder="Your score" min="0" />
+            <button type="submit" class="submit-btn btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
