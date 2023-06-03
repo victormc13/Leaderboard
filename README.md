@@ -51,6 +51,7 @@
     <li>CSS</li>
     <li>Javascript</li>
     <li>Webpack</li>
+    <li>API: <a href="https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API service</a></li>
   </ul>
 </details>
 
@@ -77,6 +78,7 @@
 - **[Use a minimalist style to build the project]**
 - **[Best practices of ES6 syntax]**
 - **[Use of javascript to the functionalities of the page]**
+- **[Request data from an APi]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +88,7 @@
 
 <!-- > Add a link to your deployed project. -->
 
-- [Not live demo]()
+- [Leaderboard](https://victormc13.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

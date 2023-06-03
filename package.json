@@ -4,13 +4,14 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "build": "webpack",
     "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://victormc13.github.io/Leaderboard",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
@@ -29,5 +30,8 @@
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"
   },
-  "main": "webpack.config.js"
+  "main": "webpack.config.js",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
